@@ -1,0 +1,21 @@
+step by step on how to write and run the Caesar cipher program with the necessary library imports:
+
+Step 1: Open your Python development environment (like IDLE, PyCharm, or VSCode).
+
+Step 2: Create a new Python file. You can name it something like caesar_cipher.py.
+
+Step 3: Start by importing the necessary libraries. In this case, you don't need any external libraries, so you won't import anything.
+
+Step 4: Define the caesar_cipher function. This function takes a string text, an integer shift representing the amount of shift for encryption or decryption, and an optional boolean decrypt flag indicating whether to decrypt the text. It returns the encrypted or decrypted text based on the shift value.
+
+Step 5: Write the main function. This function will contain the main logic of your program, including input prompts and calling the caesar_cipher function.
+
+Step 6: Inside the main function, use a while loop to repeatedly ask the user whether they want to encrypt, decrypt, or quit. Depending on the user's choice, prompt for the message and shift value, and call the caesar_cipher function accordingly.
+
+Step 7: Add an if __name__ == "__main__": block at the end of your script to ensure that the main function is executed when the script is run directly (not imported as a module).
+
+Step 8: Save your file.
+
+Step 9: Run your Python script. You can do this by executing the script from your Python development environment or by navigating to the directory containing your script using the command line and running python caesar_cipher.py.
+
+Step 10: Follow the prompts in the console to encrypt or decrypt messages with the Caesar cipher.
